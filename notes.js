@@ -71,3 +71,5 @@ var item = virendramajhi03;
 var pas = pOkW5TmCZpLchll5;
 var sss =
   "mongodb+srv://virendramajhi03:<db_password>@cluster0.jcle4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+// "mongodb+srv://virendramajhi03:pOkW5TmCZpLchll5@cluster0.jcle4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+//  "mongodb+srv://virendramajhi03:<db_password>@cluster0.jcle4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"

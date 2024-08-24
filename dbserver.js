@@ -1,12 +1,19 @@
 const mongoose = require("mongoose");
+// require("dotenv").config();
+const dotenv = require("dotenv").config();
+// require("dotenv").config({ path: "ENV_FILENAME" });
 
 // Define the MongoDB connection URL
 // const mongoURL = "mongodb://0.0.0.0:27017/hotels";
 
-const mongoURL = "mongodb://localhost:27017/hotel"; // Replace 'mydatabase' with your database name
+// const mongoURL = "mongodb://localhost:27017/hotel"; // Replace 'mydatabase' with your database name
+
+// mongoose.connect(process.env.DB_URL_ONLINE);
+// const mongoURL = process.env.DB_URL_OFLINE;
+const mongoURL = process.env.DB_URL_ONLINE;
 
 // const mongoURL =
-//   "mongodb+srv://virendramajhi03:pOkW5TmCZpLchll5@cluster0.jcle4.mongodb.net/";
+//   "mongodb+srv://virendramajhi03:pOkW5TmCZpLchll5@cluster0.jcle4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 // Set up MongoDB connection
 mongoose.connect(mongoURL, {
